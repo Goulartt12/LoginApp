@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const collection = require("./mongodb");
-const bcrypt = require("bcrypt");
 
 app.use(express.json());
 app.set("view engine", "hbs");
